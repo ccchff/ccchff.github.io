@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Informal essay</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ccchff.github.io/"/>
+  <updated>2020-04-15T09:00:58.582Z</updated>
+  <id>https://ccchff.github.io/</id>
+  
+  <author>
+    <name>Chen Hao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My First Post</title>
+    <link href="https://ccchff.github.io/2020/04/15/My-First-Post/"/>
+    <id>https://ccchff.github.io/2020/04/15/My-First-Post/</id>
+    <published>2020-04-15T08:14:57.000Z</published>
+    <updated>2020-04-15T09:00:58.582Z</updated>
+    
+    <content type="html"><![CDATA[<p>#testttttt<br>testttttttttt</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#testttttt&lt;br&gt;testttttttttt&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="testttttt" scheme="https://ccchff.github.io/tags/testttttt/"/>
+    
+  </entry>
+  
+</feed>
