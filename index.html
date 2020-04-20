@@ -276,7 +276,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://ccchff.github.io/2020/04/15/ceshi/">
+    <link itemprop="mainEntityOfPage" href="https://ccchff.github.io/2020/04/15/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chen Hao">
@@ -295,7 +295,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/04/15/ceshi/" itemprop="url">Python建立线性回归模型并计算相关值</a></h1>
+                <a class="post-title-link" href="/2020/04/15/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/" itemprop="url">Python建立线性回归模型并计算相关值</a></h1>
         
 
         <div class="post-meta">
@@ -369,11 +369,9 @@
       
         
           <h4 id="根据所给样本数据，建立线性回归模型-Y-i-beta-0-beta-1X-i-mu-i-，其中-mu-i-sim-N-0-sigma-2"><a href="#根据所给样本数据，建立线性回归模型-Y-i-beta-0-beta-1X-i-mu-i-，其中-mu-i-sim-N-0-sigma-2" class="headerlink" title="根据所给样本数据，建立线性回归模型$Y_i=\beta_0+\beta_1X_i+\mu_i$，其中${\mu}_i \sim N(0,\sigma^2)$"></a>根据所给样本数据，建立线性回归模型$Y_i=\beta_0+\beta_1X_i+\mu_i$，其中${\mu}_i \sim N(0,\sigma^2)$</h4><p>&emsp;多元线性回归模型是指描述因变量y与一组自变量$x_1$,$x_1$,· · · ,$x_p$以及随机误差项ε的关系的等式。其一般表达式为：<br>$y=\beta_0+\beta_1x_1+\beta_2x_2+···+\beta_px_p+\varepsilon\tag{1}$<br>式中，$\beta_0$,$\beta_1$,$\beta_2$,· · ·,$\beta_p$是p+1个未知参数，$\beta_0$称为回归截距，$\beta_1$,· · ·,$\beta_p$称为回归系数，ε是随机误差项。y称为被解释变量（因变量），而$x_1$,$x_1$,· · ·,$x_p$是p个可以精确测量并可控制的自变量，称为解释变量。p=1时，式(1)即为一元线性回归模型，p≥2时，则称式(1)为多元线性回归模型。</p>
-<p>数据导入代码如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> scipy <span class="keyword">import</span> stats</span><br><span class="line"></span><br><span class="line">dat=pd.read_excel(<span class="string">'dat.xls'</span>)                    <span class="comment">#读取数据</span></span><br><span class="line">ones=pd.DataFrame(np.repeat(<span class="number">1</span>,dat.shape[<span class="number">0</span>]))    <span class="comment">#创建维度为dat.shape[0]的全为1的数据</span></span><br><span class="line"></span><br><span class="line">x_dat=dat.iloc[:,<span class="number">2</span>:<span class="number">7</span>]                           <span class="comment">#取源数据的第3列至第7列做为特征值</span></span><br><span class="line">X=pd.concat([ones,x_dat],axis=<span class="number">1</span>)                <span class="comment">#合并1和特征值作为输入X </span></span><br><span class="line">Y=dat.y                                         <span class="comment">#取源数据y值作为输出Y</span></span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2020/04/15/ceshi/#more" rel="contents">
+            <a class="btn" href="/2020/04/15/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
